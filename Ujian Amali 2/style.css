@@ -47,7 +47,7 @@ header h1 {
     padding: 12px 25px;
     border-radius: 25px;
     border: none;
-    background-color: #e50914;
+    background-color: #f0f1f0;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -55,7 +55,7 @@ header h1 {
 }
 
 #search-btn:hover {
-    background-color: #b80710;
+    background-color: #1d1d1d;
 }
 
 .suggestions {
@@ -66,7 +66,7 @@ header h1 {
 .suggest-link {
     background: none;
     border: none;
-    color: #00adb5;
+    color: #b52400;
     margin: 0 5px;
     cursor: pointer;
     text-decoration: underline;
