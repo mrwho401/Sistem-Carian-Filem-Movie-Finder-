@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🎬 MovieFinder</h1>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Cari siri TV atau filem...">
+                <button id="search-btn">Cari</button>
+            </div>
+            
+            <div class="suggestions">
+                <span>Cadangan:</span>
+                <button class="suggest-link">Batman</button>
+                <button class="suggest-link">Spider-man</button>
+                <button class="suggest-link">Avengers</button>
+                <button class="suggest-link">Stranger Things</button>
+            </div>
+        </div>
+
+        <div id="status-message" class="status-message">
+            Sila masukkan tajuk filem untuk memulakan carian.
+        </div>
+
+        <main id="movies-grid" class="movies-grid"></main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
